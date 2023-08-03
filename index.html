@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css"/>
+  
+  <title>Snap website</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <!-- beginning of navbar -->
+<div class="navbar">
+  <image src="/images/logo.svg" alt="snap"/>
+  <div class="desktop-view">
+    <p class="btn">Features
+      <image src="/images/icon-arrow-down.svg" alt="drop-down"/>
+    </p>
+    <div class="dropdown-content dropdown-content1">
+    <a href="#"><image src="/images/icon-todo.svg"/>Todo List</a>
+    <a href="#"><image src="/images/icon-calendar.svg"/>Calender</a>
+    <a href="#"><image src="/images/icon-reminders.svg"/>Remainders</a>
+    <a href="#"><image src="/images/icon-planning.svg"/>Planning</a>
+  </div>
+
+    <p class="btn"> Company
+      <image src="/images/icon-arrow-down.svg" alt="drop-down"/>
+    </p>
+    <div class="dropdown-content ">
+      <a href="#">History</a>
+      <a href="#">Our Team</a>
+      <a href="#"> Blog</a>
+    </div>
+
+  <p>Career</p>
+  <p>About</p>
+
+  <div class="reg">
+    <button class="login">Login</button>
+    <button class="sign-up">Register</button>
+  </div>
+</div>
+<button  id="menu-btn" type="button" class="hamburger-menu">
+  <span class="hamburger-top"></span>
+  <span class="hamburger-middle"></span>
+  <span class="hamburger-bottom"></span>
+ </button>
+</div>
+ <!-- end of navbar -->
+ <!-- responsive mobile view -->
+ 
+  <div class="mobile-view">
+    <ul>
+    <p class="btn">Features
+      <image src="/images/icon-arrow-down.svg" alt="drop-down"/>
+    </p>
+    <div class="dropdown-content dropdown-content1">
+    <a href="#"><image src="/images/icon-todo.svg"/>Todo List</a>
+    <a href="#"><image src="/images/icon-calendar.svg"/>Calender</a>
+    <a href="#"><image src="/images/icon-reminders.svg"/>Remainders</a>
+    <a href="#"><image src="/images/icon-planning.svg"/>Planning</a>
+  </div>
+  
+
+    <p class="btn"> Company
+      <image src="/images/icon-arrow-down.svg" alt="drop-down"/>
+    </p>
+    <div class="dropdown-content ">
+      <a href="#">History</a>
+      <a href="#">Our Team</a>
+      <a href="#"> Blog</a>
+    </div>
+
+  <p>Career</p>
+  <p>About</p>
+  <div class="reg">
+    <button class="login">Login</button>
+    <button class="sign-up">Register</button>
+  </div>
+</ul>
+  </div>
+
+</div>
+ <!-- end of mobile responsive view -->
+  <div class="body">
+    <h1 class="body-heading"> Make <br/>Remote Work</h1>
+    <p class="body-paragraph"> Get your team in sync, no matter your location <br/> Streamline Processes . Create team rituals and <br/> Watch productivity soar</p>
+    <button class="body-button"> Learn More</button>
+    <div class="icons">
+    <image src="/images/client-databiz.svg"/>
+    <image src="/images/client-audiophile.svg"/>
+    <image src="/images/client-meet.svg"/>
+    <image src="/images/client-maker.svg"/>
+    </div>
+  </div>
+  <image src="/images/image-hero-desktop.png" alt="hero-image" width="396px" class="body-image"/>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Udeh Chibuzor Richard</a>.
+  </div>
+  <script src="./App.js"></script>
+</body>
+</html>
